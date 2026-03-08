@@ -7,7 +7,7 @@ services:
     container_name: PowerGrid-simulator-app
     restart: always
     ports:
-      - "5100:5000"
+      - "5150:5000"
     volumes:
       - .:/code
 
